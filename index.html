@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
 	<script defer src="js.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<title>grocery list</title>
@@ -10,18 +14,26 @@
 <body>
 	
 	<div dir="rtl" class="container">
+		<h2>רשימת קניות</h2>
 		<form id="myForm">
-			<label for="myForm">לכתוב פריטים</label>
-			<input type="text" name="myForm" id="input" placeholder="כתיבה" required>
-			<button id="submit">+</button>
+			<!--<label for="myForm">הוספת פריט לרשימה</label>-->
+			<div class="inputContainer">
+				<input type="text" name="myForm" id="input" placeholder="להקליד פריטים" required>
+				<button id="submit">+</button>
+			</div>
+
+			<div>
+				<button id="clear">יצירת רשימה חדשה</button>
+			</div>
+			
 		</form>
-		<button id="clear">יצירת רשימה חדשה</button>
 
 
-		<ul id="groceryList">
+
+		<ol id="groceryList">
 			
 
-		</ul>
+		</ol>
 
 	</div>
 

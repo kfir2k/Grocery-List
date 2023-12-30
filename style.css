@@ -1,13 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Heebo', sans-serif;
+	
+
+}
+
+
+h2{
+	text-align: center;
+}
+
+
+.container{
+	background-color:aliceblue;
+	display: flex;
+	flex-direction: column;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 2em;
+	
+}
+
+
+ol{
+	/*color: red;*/
+	/*display: flex;*/
+	list-style: none;
+
+}
+
+
+
+
 .overline{
 
-
-	background-color: red;
-
-}
-
-.none{
-
-	background-color: none;
+	text-decoration:line-through;
+	color: gray;
 
 
 }
+
+.inputContainer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+
+input[type="text"]{
+
+
+	width: 90%;
+	height: 2.5em;
+
+	
+}
+
+form>div>input+button{
+	
+	width: 10%;
+	height: 2.5em;
+	border: 0px solid black;
+	border-radius: 0.3em;
+		background-color: rgb(26, 134, 42);
+	
+	
+	color: white;
+
+
+	
+
+}
+
+
+form > div > input + button:hover {
+
+background-color: greenyellow;
+	color: white;
+
+
+
+
+}
+
+
