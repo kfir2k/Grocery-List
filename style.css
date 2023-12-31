@@ -111,3 +111,24 @@ span {
 	font-weight: bolder;
 	color: red;
 }
+
+.clear-container {
+	display: flex;
+	justify-content: center;
+	/* margin-top: 0.3em; */
+	margin-bottom: 0.4em;
+	/* background-color: blue; */
+
+}
+
+#clear {
+	/* background-color: red; */
+	font-size: 0.8em;
+	padding: 0.2em;
+	/* min-width: 5em; */
+}
+
+
+input[type="checkbox"] {
+	margin-left: 0.3em;
+}
