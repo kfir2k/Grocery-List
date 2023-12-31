@@ -105,3 +105,9 @@ form>div>input+button:hover {
 	color: blue;
 
 }
+
+
+span {
+	font-weight: bolder;
+	color: red;
+}
