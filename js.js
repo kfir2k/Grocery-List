@@ -91,7 +91,7 @@ function addItemToList(item) {
 	deleteButton.classList.add("garbageCan")
 	const listItem = document.createElement('li');
 
-	const listItemText = `${item.text}`;
+	const listItemText = `${item.text} `;
 	const listItemAmount = `${item.amounts}`
 	const span = document.createElement("span")
 
